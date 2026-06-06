@@ -1,4 +1,4 @@
-console.log('%c [Kitsune] Init ', 'background: #0056b3; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold;');
+console.log('%c [Kitsune] Init ', 'background: #ffffff; color: black; padding: 3px 8px; border-radius: 4px; font-weight: bold;');
 
 //window.dataLayer = window.dataLayer || [];
 const originalPush = window.dataLayer.push;
@@ -56,7 +56,7 @@ window.dataLayer.push = function (...args) {
     const eventName = eventData.event || 'push (Sem Nome)';
     const time = new Date().toLocaleTimeString(); 
 
-    const styleTag = 'background: #111; color: #00ffcc; padding: 4px 8px; border-radius: 4px; font-weight: bold; border: 1px solid #00ffcc;';
+    const styleTag = 'background: #111; color: #09ff00; padding: 4px 8px; border-radius: 4px; font-weight: bold; border: 1px solid #09ff00;';
     const styleTime = 'color: #888; font-style: italic; font-size: 11px; margin-left: 8px;';
 
     console.groupCollapsed(`%c 📥 kitsune_view: ${eventName} %c [${time}]`, styleTag, styleTime);
