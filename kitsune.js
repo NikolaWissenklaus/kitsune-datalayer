@@ -59,7 +59,7 @@ window.dataLayer.push = function (...args) {
     const styleTag = 'background: #111; color: #00ffcc; padding: 4px 8px; border-radius: 4px; font-weight: bold; border: 1px solid #00ffcc;';
     const styleTime = 'color: #888; font-style: italic; font-size: 11px; margin-left: 8px;';
 
-    console.groupCollapsed(`%c 📥 dl_view: ${eventName} %c [${time}]`, styleTag, styleTime);
+    console.groupCollapsed(`%c 📥 kitsune_view: ${eventName} %c [${time}]`, styleTag, styleTime);
     printParamsTree(eventData);
     console.groupEnd();
 };
@@ -72,7 +72,7 @@ function kitsune_agora() {
         const eventName = e.event || 'push (Sem Nome)';
         const styleTag = 'background: #333; color: #ffcc00; padding: 3px 6px; border-radius: 4px; border: 1px solid #ffcc00; font-size: 11px;';
         
-        console.groupCollapsed(`%c [${index}] dl_view: ${eventName}`, styleTag);
+        console.groupCollapsed(`%c [${index}] kitsune_view: ${eventName}`, styleTag);
         printParamsTree(e);
         console.groupEnd();
     });
