@@ -1,4 +1,4 @@
-console.log('%c [Kitsune] Init ', 'background: #ffffff; color: black; padding: 3px 8px; border-radius: 4px; font-weight: bold;');
+console.log('%c [Kitsune] Init ', 'background: #ffffff; color: black; padding: 3px 8px; border-radius: 4px; font-weight: bold; border-left: 3px solid #0ff11a;');
 
 //window.dataLayer = window.dataLayer || [];
 const originalPush = window.dataLayer.push;
