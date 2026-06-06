@@ -1,6 +1,6 @@
 console.log('%c [Kitsune] Init ', 'background: #0056b3; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold;');
 
-window.dataLayer = window.dataLayer || [];
+//window.dataLayer = window.dataLayer || [];
 const originalPush = window.dataLayer.push;
 
 function printParamsTree(obj) {
